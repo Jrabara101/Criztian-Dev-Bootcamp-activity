@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card with Advanced Effects</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="card-design-responsive.css">
+</head>
+<body>
+
+<div class="card-container">
+    <div class="card">
+        <div class="card-front">
+            <img src="HTML5.png" alt="Card image" class="card-img">
+            <div class="card-content">
+                <h2 class="card-title">HTML 5</h2>
+                <p class="card-text">HTML5 is the latest version of the HyperText Markup Language (HTML) standard, used for structuring and presenting content on the web.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card-back">
+            <div class="card-content">
+                <h2 class="card-title">Stay Connected</h2>
+                <p class="card-text">Follow us on social media for the latest updates and tips!</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
